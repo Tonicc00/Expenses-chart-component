@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="balance">
+      <div>
+        <p>My balance</p>
+        <h1>$921.48</h1>
+      </div>
+      <img src="images/logo.svg" alt="logo img">
+    </div>
+    <main>
+      <h2>Spending - Last 7 days</h2>
+      <div><canvas id="myChart"></canvas></div>
+      <hr>
+      <div class="info">
+        <div class="total">
+          <span>Total this month</span>
+          <p>$478.33</p>
+        </div>
+        <div class="percent">
+          <p>+2.4%</p>
+          <span>from last month</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Toni Jokić</a>.
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
